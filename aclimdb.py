@@ -1,5 +1,3 @@
-import pickle
-
 import keras.callbacks
 import keras.layers
 import keras.models
