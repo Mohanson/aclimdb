@@ -34,7 +34,7 @@ embedding_dims = 50
 epochs = 20
 
 print('Loading data')
-with open('aclimdb.npy', 'rb') as f:
+with open('res/aclimdb.npy', 'rb') as f:
     (x_train, y_train), (x_test, y_test) = np.load(f)
 
 if ngram_range > 1:
